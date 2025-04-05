@@ -29,18 +29,18 @@ ul li {
   list-style: none;
 }
 
-.wrap {
+.container_wrap {
   padding: 10px 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.wrap ._left {
+.container_wrap ._left {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.wrap ._right {
+.container_wrap ._right {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -137,4 +137,73 @@ ul li {
 .content_wrap header .log_drp_dwn_wrap .dropdown-menu li a:active, .content_wrap header .log_drp_dwn_wrap .dropdown-menu li a:focus, .content_wrap header .log_drp_dwn_wrap .dropdown-menu li a:hover {
   background: rgba(65, 94, 143, 0.2117647059);
   color: #000;
+}
+.content_wrap .dashborad_content {
+  margin-top: 15px;
+  background: #e3e3e3;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  color: #000;
+}
+.content_wrap .dashborad_content .profile_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.content_wrap .dashborad_content .profile_wrap .pr_img {
+  height: 100px;
+  width: 100px;
+  min-width: 100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.content_wrap .dashborad_content .profile_wrap .pr_img img {
+  width: 100%;
+  height: 100%;
+}
+.content_wrap .dashborad_content .profile_wrap .detl_wrp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content_wrap .dashborad_content .profile_wrap .detl_wrp h3 {
+  font-size: 17px;
+  margin-bottom: 8px;
+  line-height: 1;
+  font-weight: 600;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  color: #1e417c;
+}
+.content_wrap .dashborad_content .profile_wrap .detl_wrp span {
+  font-size: 11px;
+  color: #3c3c3c;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.content_wrap .dashborad_content .profile_wrap .detl_wrp span:last-child {
+  margin-bottom: 0;
+}
+.content_wrap .dashborad_content .profile_wrap .arrow_btn {
+  border: none;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 30px;
+}
+.content_wrap .dashborad_content .profile_wrap .arrow_btn:active, .content_wrap .dashborad_content .profile_wrap .arrow_btn:focus, .content_wrap .dashborad_content .profile_wrap .arrow_btn:hover {
+  background: #d7d7d7;
+}
+.content_wrap .dashborad_content .profile_wrap .arrow_btn svg {
+  stroke: #7e7c7c;
+  height: 25px;
 }/*# sourceMappingURL=main.css.map */
